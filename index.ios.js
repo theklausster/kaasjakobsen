@@ -11,7 +11,6 @@ import {
   Text,
   View
 } from 'react-native';
-import messsage from './test';
 export default class klaue extends Component {
   render() {
     return (
@@ -23,7 +22,6 @@ export default class klaue extends Component {
           Learning React native
         </Text>
         <Text style={styles.instructions}>
-          {messsage}
         </Text>
       </View>
     );
